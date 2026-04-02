@@ -2,7 +2,7 @@
   "version": 3,
   "builds": [
     {
-      "src": "package.json",
+      "src": "dist",
       "use": "@vercel/static-build",
       "config": { "distDir": "dist/public" }
     }
